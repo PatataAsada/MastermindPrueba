@@ -24,8 +24,9 @@ public class Ordenador extends Jugador{
 		return false;
 	}
 
-	public boolean validar_combinacion(Jugador jugador) {
+	public Colores[] validar_combinacion() {
+		Colores combinacion[] = new Colores[dificultad.casillas];
 		
-		return false;
+		return combinacion;
 	}
 }

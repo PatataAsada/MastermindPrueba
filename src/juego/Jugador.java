@@ -10,5 +10,5 @@ public abstract class Jugador {
 	}
 	public abstract void escoger_combinacion(Jugador jugador);
 	public abstract boolean adivinar_combinacion(Jugador jugador);
-	public abstract boolean validar_combinacion(Jugador jugador);
+	public abstract Colores[] validar_combinacion();
 }

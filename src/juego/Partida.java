@@ -6,16 +6,19 @@ public class Partida {
 	public Persona j1;
 	public Ordenador pc;
 	public Persona j2;
+	public Dificultad dificultad;
+	public Debug debug;
 	
-	Partida(Dificultad dificultad){
+	Partida(Dificultad dificultad, Debug debug){
 		j1 = new Persona(dificultad);
 		j2 = new Persona(dificultad);
 		pc = new Ordenador(dificultad);
-		lista_colores = imprime_colores(dificultad);
-		
+		lista_colores = imprime_colores();
+		this.dificultad = dificultad;
+		this.debug = debug;
 	}
 	
-	private String imprime_colores(Dificultad dificultad) {
+	private String imprime_colores() {
 		byte i;
 		String resultado="";
 		for(i=0;i<dificultad.colores;i++) {
@@ -24,7 +27,13 @@ public class Partida {
 		}
 		return resultado;
 	}
-	public void comenzar_partida() {
+
+	public static void iniciarPartida() {
 		
+	}
+	
+	public String dibujarPartida() {
+		String resultado = "";
+		return resultado;
 	}
 }
