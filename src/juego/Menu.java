@@ -36,6 +36,7 @@ public class Menu {
 			case 3:
 				partida = new Partida(dificultad, debug);
 				Partida.iniciarPartida();
+				Partida.mostrarGanador();
 				break;
 			case 4:
 				cerrar_programa=false;
