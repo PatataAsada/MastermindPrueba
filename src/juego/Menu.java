@@ -9,6 +9,7 @@ public class Menu {
 		/*DIFICULTAD Y ESTADO DEL MODO DEBUG POR PREDETERMINADO AL INICIAR EL PROGRAMA*/
 		Debug debug = Debug.D;
 		Dificultad dificultad = Dificultad.FACIL;
+		@SuppressWarnings("unused")
 		Partida partida;
 		/*PARA LA OPCION DEL MENÚ*/
 		byte opcion;
