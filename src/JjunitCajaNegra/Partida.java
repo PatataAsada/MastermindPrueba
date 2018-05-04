@@ -1,4 +1,4 @@
-package JjunityCajaNegra;
+package JjunitCajaNegra;
 
 public class Partida {
 	public static Colores lc_pre[]= {Colores.ROJO,Colores.AZUL,Colores.AMARILLO,Colores.VERDE,Colores.GRIS,Colores.LIMA,Colores.BLANCO,Colores.NEGRO,Colores.ROSA,Colores.MORADO};

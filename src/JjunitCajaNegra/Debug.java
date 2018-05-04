@@ -1,4 +1,4 @@
-package JjunityCajaNegra;
+package JjunitCajaNegra;
 
 public enum Debug {
 	A("Activado",true),D("Desactivado",false);

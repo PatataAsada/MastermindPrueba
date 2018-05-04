@@ -1,4 +1,4 @@
-package JjunityCajaNegra;
+package JjunitCajaNegra;
 
 public class Tablero {
 	public Colores tablero[][];

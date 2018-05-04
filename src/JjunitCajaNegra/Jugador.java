@@ -1,4 +1,4 @@
-package JjunityCajaNegra;
+package JjunitCajaNegra;
 
 public abstract class Jugador {
 	public Tablero tablero;

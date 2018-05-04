@@ -1,7 +1,9 @@
-package JjunityCajaNegra;
+package JjunitCajaNegra;
 
 public enum Dificultad {
-	FACIL("Facil",false,(byte)4,(byte)8,false,10),MEDIO("Medio",true,(byte)5,(byte)8,false,15),DIFICIL("Dificil",true,(byte)6,(byte)10,true,10000000);
+	FACIL("Facil",false,(byte)4,(byte)8,false,10),
+	MEDIO("Medio",true,(byte)5,(byte)8,false,15),
+	DIFICIL("Dificil",true,(byte)6,(byte)10,true,10000000);
 	public String dificultad;
 	public boolean tableros; 	/*BOOLEAN PARA SABER SI MOSTRAR 1 O 2 TABLEROS*/
 	public boolean repeticion; 	/*BOOLEAN PARA REPETICION DE COLORES*/

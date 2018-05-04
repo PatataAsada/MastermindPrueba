@@ -1,4 +1,4 @@
-package JjunityCajaNegra;
+package JjunitCajaNegra;
 import juego.Teclado;
 import juego.Teclado.Incluido;
 import juego.Teclado.Tipos;
