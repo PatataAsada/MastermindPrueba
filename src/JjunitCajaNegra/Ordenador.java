@@ -33,18 +33,25 @@ public class Ordenador extends Jugador{
 		for(i=0;i<marca.length;i++) {
 			marca[i]="";
 		}
-		for(i=0;i<combinacion.length;i++) {
-			for(j=0;j<combinacion.length;j++) {
-				if(secreto[i].color==combinacion[j].color) {
-					if(marca[j]!="x") {
-						if(i==j) correctas++;
-						else descolocadas++;
-						marca[j]="x";
-						j=combinacion.length;
+		//Bucle para colores correctos.
+		for(i=0;i<secreto.length;i++) {
+			if(secreto[i]==combinacion[i]) {
+				correctas++;
+				marca[i]="x";
+			}
+		}
+		//Bucle doble para descolocadas
+		for(i=0;i<secreto.length;i++) {
+			for(j=0;j<combinacion.length;j++){
+				if(marca[i]=="") {
+					if(secreto[i]==combinacion[j]) {
+						marca[i]="x";
+						descolocadas++;
 					}
 				}
 			}
 		}
+		//Bucle para escribir el resultado
 		for(i=0;i<comprobacion.length;i++) {
 			if(correctas>0) {comprobacion[i] = Colores.ACERTADA; correctas--;}
 			else if(descolocadas>0) {comprobacion[i] = Colores.DESCOLOCADA; descolocadas--;}
