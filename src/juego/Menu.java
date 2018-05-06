@@ -9,6 +9,7 @@ public class Menu {
 		/*DIFICULTAD Y ESTADO DEL MODO DEBUG POR PREDETERMINADO AL INICIAR EL PROGRAMA*/
 		Debug debug = Debug.D;
 		Dificultad dificultad = Dificultad.FACIL;
+		@SuppressWarnings("unused")
 		Partida partida;
 		/*PARA LA OPCION DEL MENÚ*/
 		byte opcion;
@@ -36,6 +37,7 @@ public class Menu {
 			case 3:
 				partida = new Partida(dificultad, debug);
 				Partida.iniciarPartida();
+				Partida.mostrarGanador();
 				break;
 			case 4:
 				cerrar_programa=false;

@@ -36,4 +36,9 @@ public class Partida {
 		String resultado = "";
 		return resultado;
 	}
+
+	public static void mostrarGanador() {
+		
+		
+	}
 }
