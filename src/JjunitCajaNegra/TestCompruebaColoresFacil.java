@@ -3,6 +3,11 @@ package JjunitCajaNegra;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
+import juego.Colores;
+import juego.Dificultad;
+import juego.Ordenador;
+import juego.Persona;
+
 class TestCompruebaColoresFacil {
 	Ordenador prueba = new Ordenador(Dificultad.FACIL);
 	Persona pruebaManual = new Persona(Dificultad.FACIL);

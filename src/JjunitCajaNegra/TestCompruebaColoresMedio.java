@@ -4,6 +4,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import juego.Colores;
+import juego.Dificultad;
+import juego.Ordenador;
+import juego.Persona;
+
 class TestCompruebaColoresMedio {
 
 	Ordenador prueba = new Ordenador(Dificultad.MEDIO);

@@ -1,4 +1,4 @@
-package JjunitCajaNegra;
+package juego;
 
 public class Main {
 
