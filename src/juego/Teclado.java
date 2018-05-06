@@ -410,8 +410,7 @@ public class Teclado {
 			} while (!valorValido);	
 			break;
 		case INT:
-			if((int)minimo>(int)maximo)
-				throw new IllegalArgumentException();
+			if((int)minimo>(int)maximo) throw new IllegalArgumentException();
 			do {
 				switch (incluido) {
 				case TODOS:

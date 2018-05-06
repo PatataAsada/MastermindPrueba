@@ -4,7 +4,7 @@ public enum Colores {
 //Colores para la partida
 ROJO("\u001B[41m rojo \u001B[0m","\u001B[41m"),
 AZUL("\u001B[44m azul \u001B[0m","\u001B[44m"),
-AMARILLO("\\u001B[43m amarillo \u001B[0m","\u001B[43m"),
+AMARILLO("\u001B[43m amarillo \u001B[0m","\u001B[43m"),
 VERDE("\u001B[42m verde \u001B[0m","\u001B[42m"),
 GRIS("\u001B[100m gris \u001B[0m","\u001B[100m"),
 LIMA("\u001B[102m lima \u001B[0m","\u001B[102m"),
