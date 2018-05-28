@@ -1,5 +1,5 @@
-package JjunitCajaNegra;
-import juego.Teclado;
+package juego;
+
 import juego.Teclado.Incluido;
 import juego.Teclado.Tipos;
 
@@ -13,7 +13,7 @@ public class Persona extends Jugador{
 	 * 
 	 * @param dificultad
 	 */
-	Persona(Dificultad dificultad){
+	public Persona(Dificultad dificultad){
 		super(dificultad);
 	}
 	/*CREACION DE COMBINACION PARA EL OPONENTE*/

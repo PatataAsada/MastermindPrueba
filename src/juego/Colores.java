@@ -1,4 +1,4 @@
-package JjunitCajaNegra;
+package juego;
 
 public enum Colores {
 //Colores para la partida

@@ -1,9 +1,9 @@
-package JjunitCajaNegra;
+package juego;
 
 import java.util.Random;
 
 public class Ordenador extends Jugador{
-	Ordenador(Dificultad dificultad){
+	public Ordenador(Dificultad dificultad){
 		super(dificultad);
 	}
 
